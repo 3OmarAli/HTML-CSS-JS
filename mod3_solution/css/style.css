@@ -38,33 +38,7 @@ section h3 {
 	background-color: rgba(56, 38, 38, 0.753);
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-	.hidden-xs {
-		display: none !important;
-	}
-}
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-	.hidden-xs {
-		display: none !important;
-	}
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-	.hidden-xs {
-		display: none !important;
-	}
-}
-
-/********** Extra small devices only **********/
-@media (min-width: 575px) and (max-width: 767px) {
-	.hidden-xs {
-		display: none !important;
-	}
-}
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 575px) {
