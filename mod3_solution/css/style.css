@@ -1,0 +1,74 @@
+
+* {
+	box-sizing: border-box;
+  }
+ 
+body {
+	background: rgba(197, 196, 196, 0.664);
+	font-size: 20px;
+}
+
+#menu {
+	margin-bottom: 2rem;
+	
+}
+/* Navbar */
+nav h1 {
+	background: rgba(78, 78, 78, 0.705);
+	padding: 10px 0 20px 30px;
+}
+
+#btn {
+	float: right;
+}
+
+/* items */
+.items {
+	display: block;
+	background: rgba(99, 70, 70, 0.726);
+	border: 2px solid black;
+	margin-bottom: 20px;
+	width: 92% !important;
+}
+section h3 {
+	padding: 10px 0 10px;
+}
+
+.nav-item {
+	background-color: rgba(56, 38, 38, 0.753);
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 575px) and (max-width: 767px) {
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 575px) {
+	.container {
+		margin-left: 20px !important;
+	}
+}
